@@ -21,3 +21,7 @@ Due to not having looked up licenses for the assets that are used, these have be
 These are used to provide default backgrounds for games that do not have any, as well as a default image for games not having any.
 If you want to change, edit, remove or add more of those, have a look at `theme.qml`. The default backgrounds are specified in the `defaultBackgrounds` property.
 The theme will attempt to load a `default-tile.jpg` image from the assets folder for items that do not have any. You may disable this in `GameListElement.qml`, in the `source` attribute of `gameListCover`.
+
+### gamelist.xml importer
+
+If you already have a collection in the gamelist.xml format, the `importer.py` script is a quick and dirty solution to generate a `metadata.xml` file for Pegasus, containing only the data this theme needs. Run it with python 3.
